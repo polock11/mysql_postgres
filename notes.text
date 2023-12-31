@@ -1,0 +1,15 @@
+Functons:
+Created using CREATE FUNCTION command
+Invoked using the SELECT statement
+Must return a single value
+Takes IN parameters only
+Typically encapsulates common formulas or generic business rules
+Must specify the data type of the return value
+
+Procedures:
+Created using the CREATE PROCEDURE command
+Invoked using the CALL statement
+Outputs values via the OUT parameter
+Takes IN, OUT and INOUT parameters
+Typically used to process, manipulate and modify data in the database
+User must specify the OUT parameter type
