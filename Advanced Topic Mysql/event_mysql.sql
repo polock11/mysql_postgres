@@ -1,0 +1,8 @@
+DELIMITER //
+    CREATE EVENT GenerateReport ON
+    SCHEDULE AT CURRENT_TIMESTAMP + INTERVAL 12 HOUR
+    DO 
+    BEGIN
+        logic
+    END
+DELIMITER ;
